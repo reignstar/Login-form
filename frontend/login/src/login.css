@@ -1,0 +1,57 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login p:hover h3{
+    color: rgb(20, 140, 220);
+  }
+  .loginItems {
+    width: 500px;
+    height: 650px;
+    display: flex;
+  
+    
+    box-shadow: 0px 3px 15px rgb(20, 140, 220);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  .input-container{
+    width: 100%;
+    font-size: 30px;
+  }
+  #num{
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  #email{
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  #otp{
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+  }
+  .btn-1{
+    display:inline-block;
+    height: 50px;
+    margin-left: 200px;
+    padding: 0 28px;
+    background:blue;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 25px;
+    transition: all .3s;
+}
+  

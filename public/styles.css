@@ -1,0 +1,34 @@
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .input[type=email]{
+    width:300px;
+    border:white;
+  }
+  input[class=input-field]{
+    border: solid rgb(236, 233, 233) 2px ;
+    width:200%;
+  }
+  
+  form-label{
+    align-self:flex-start;
+    top:20%;
+  }
+  .btn-1{
+    display:inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background:blue;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 25px;
+    transition: all .3s;
+}
